@@ -226,7 +226,7 @@ def get_suffix(v, w, delta):
 
 
 def main():
-    blosum = read_blosum62('./BLOSUM62.txt')
+    blosum = read_blosum62('./data/BLOSUM62.txt')
 
     # Local Sanity test from HW1 
     scoreA = None
@@ -264,8 +264,8 @@ def main():
 
     # Run both Needleman-Wunsch and Hirschberg for the three datasets 
     for i in range(1, 4):
-        infile = "cmp" + str(i) + ".txt"
-        outfile = "out" + str(i) + ".txt"
+        infile = "./data/cmp" + str(i) + ".txt"
+        outfile = "./results/out" + str(i) + ".txt"
 
         f = open(infile, "r")
         seqA = f.readline().rstrip()
