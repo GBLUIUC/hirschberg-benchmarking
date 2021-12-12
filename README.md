@@ -1,13 +1,13 @@
-##cs466-proj
+## cs466-proj
 CS 466 Final Project: Implementation and Benchmarking of Hirschberg Algorithm
 
-#Dependencies
+# Dependencies
 This code requires
 
 Python 3
 Python memory_profiler package
 
-#Usage
+# Usage
 You can simply run the comparison between Needleman-Wunsch and Hirschberg with command
 
 python3 hirschberg.py
