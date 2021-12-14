@@ -4,7 +4,8 @@ CS 466 Final Project: Implementation and Benchmarking of Hirschberg Algorithm
 # Dependencies
 This code requires
 
-Python 3
+Python 3 
+
 Python memory_profiler package
 
 # Usage
