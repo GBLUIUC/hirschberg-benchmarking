@@ -1,5 +1,5 @@
-## CS466 Final Project
-CS 466 Final Project: Implementation and Benchmarking of Hirschberg Algorithm
+## hirschberg-benchmarking
+Implementation and Benchmarking of Hirschberg Algorithm against Needleman-Wunsch
 
 # Dependencies
 This code requires
